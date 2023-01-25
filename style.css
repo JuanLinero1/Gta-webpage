@@ -1,0 +1,275 @@
+*
+{
+    margin: 0; 
+    padding:0; 
+}
+
+body
+{
+    background-color: #f5f5f5;
+}
+
+/* header */
+header
+{
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    color: yellow;
+
+    margin: 80px;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* main */
+#mainDiv
+{
+    margin: 15px 0px;
+}
+
+
+#mainDiv div img
+{
+    width: 500px;
+    height: 300px;
+    
+    margin-top: 5%;
+}
+
+#mainDiv div
+{
+    display: flex;
+}
+
+#mainDiv div div 
+{
+    display: block;
+    margin: 60px 60px 60px 0;
+
+    font-size: 22px;
+}
+
+#mainDiv div div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    margin: 25px;
+}
+
+.cutInfo
+{
+    width: 100vw;
+    height: 100px;
+
+    background-color: rgb(0, 0, 0) ;
+    color: yellow;
+
+
+    text-align: center;
+}
+
+.cutInfo h2
+{
+    position: relative;
+
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+    top: 35%;
+}
+
+#whoWeAreParagraph
+{
+    position: flex; 
+
+    font-size: 21px;
+} 
+.paragraph1
+{
+    float: left;
+
+    width: 40%;
+
+    /* margin: top right bottom left; */
+    margin: 4% 5% 80px 5%;
+}
+
+.paragraph2
+{
+    float: right;
+
+    width: 40%;
+
+    margin: 4% 5% 80px 5%;
+}
+
+#Products
+{
+    position: relative;
+    top: 20em;
+}
+
+#Products h2
+{
+    z-index: 2;
+    position: absolute;
+    left: 47%;
+}
+
+#containerCard
+{
+    margin-top: 300px;
+
+    width: 100vw;
+    height: 700px;
+
+    color: white;
+
+    display: flex;
+}
+
+.card
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+
+    margin: 100px;
+}
+
+.card img
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+}
+
+.card div
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    backface-visibility: hidden;
+
+    transition:1s;
+    border-radius: 20px;
+
+}
+
+.card .front
+{
+    background-color: rgb(0, 0, 0);
+    transform: perspective(700px) rotateY(0deg);
+}
+
+.card:hover .front
+{
+    transform: perspective(700px) rotateY(180deg);
+}
+
+.card .back
+{
+    background-color: black;
+    transform: perspective(700px) rotateY(180deg);
+}
+
+.card:hover .back
+{
+    transform: perspective(700px) rotateY(360deg);
+}
+
+.cardInfo
+{
+    position: absolute;
+    bottom: -30%;
+    text-align: center;
+}
+
+.cardGeneralInfo{
+    margin: 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer
+{
+    height: 300px;
+    width: 100vw;
+
+    background-color: black;
+}
+
+#footer div table tr td{
+    color: yellow;
+    position: relative ;
+    left: 150px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.parent
+{   
+
+    padding: 30px 70px;
+}
+
+.child2
+{
+    padding-left: -60px;
+}
+
+.child2 a 
+{
+    color: yellow;
+}
+
+.Child
+{
+    padding: 5px 60px;
+}
+
+.miniImage
+{
+    background-color: white;
+    width: 40px;
+
+    position: relative;
+    bottom: 120px;
+    right: 250px;
+
+    border-radius: 14px;
+
+    margin: 20px;
+
+    float: right;
+}
+

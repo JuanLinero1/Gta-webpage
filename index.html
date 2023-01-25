@@ -1,0 +1,109 @@
+<!-- flexBox -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <a href="#mainDiv">Home</a>
+                <a href="#WhoWeAre">About Us</a>
+                <a href="#Products">Products</a>
+                <a href="#footer">Contacts</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div id="mainDiv">
+            <div id="mainChild">
+                <img src="./imagen/Rockstar.png" alt="Team Rockstar Logo">  
+                <div>
+                    <h1>Rockstar Games Inc</h1>
+                    <p>
+                        Rockstar Games, Inc. is an American video game publisher based in New York City. The company was established in December 1998 as a subsidiary of Take-Two Interactive, using the assets Take-Two had previously acquired from BMG Interactive. Founding members of the company were Terry Donovan, Gary Foreman, Dan and Sam Houser, and Jamie King, who worked for Take-Two at the time.
+                        <br>
+                        Since 1999, several companies acquired by or established under Take-Two have become part of Rockstar Games, such as Rockstar Canada  becoming the first one in 1999, and Rockstar Dundee the most recent in 2020. All companies organized under Rockstar Games bear the "Rockstar" name and logo.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="WhoWeAre" class="cutInfo">
+            <h2>About Us</h2>
+        </div>
+
+        <div id="whoWeAreParagraph">
+            <div class="paragraph1">
+                <p>Part of the Rockstar Games family since 1999, Rockstar North is home to the ground-breaking Grand Theft Auto Series. Ambition and hard work have made Rockstar North a preeminent games developer worldwide, and at the heart of it all is a team of motivated individuals who strive to produce amazing, industry-leading games.</p>
+            </div>
+            <div class="paragraph2">
+                <p>Based in Edinburgh, Scotland, the studio provides a creative environment in which talent and innovation can thrive. Bringing a Rockstar title to fruition demands commitment and dedication, but also presents an exciting opportunity for highly skilled game developers from a variety of backgrounds to collaborate on some of the most successful and critically-acclaimed video games in the world.</p>
+            </div>
+        </div>
+
+        <div id="Products" class="cutInfo">
+            <h2>Products</h2>
+        </div>
+
+        <div id="containerCard">
+            <div class="card">
+                <div class="front"><img src="./imagen/RDR2.png"><DIV class="cardInfo" style="color: rgb(204, 26, 13);"><h1>RED DEAD REDEMPTION</h1></DIV></div>
+                <div class="back"><p class="cardGeneralInfo">America, 1899. The end of the Wild West era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed. In order to survive a gang will have to go against the FED and some of the best hunters.</p></div>
+            </div>
+            <div class="card">
+                <div class="front"><img src="./imagen/gtavArtwork.png" alt="gtaV"><div class="cardInfo"><h1>GRAND THEFT AUTO</h1></div></div>
+                <div class="back"><p class="cardGeneralInfo">When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening criminals and the U.S. government, they must pull off heists to survive in a ruthless city in which they can trust nobody</p></div>
+            </div>
+            <div class="card">
+                <div class="front"><img src="./imagen/bullyArtwork.png" alt="Bully"><div class="cardInfo" style="color: rgb(13, 48, 206); font-size: 21px;"><h1>Bully</h1></div></div>
+                <div class="back"><p class="cardGeneralInfo">As a mischievous schoolboy, you'll stand up to bullies, get picked on by teachers, play pranks, win or lose the girl, and ultimately learn to navigate the obstacles of the worst school around, Bullworth Academy — a corrupt and crumbling prep school with an uptight facade.</p></div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="footer">
+                <div>
+                    <table>
+                        <tr>
+                            <td class="parent">Contact Us</td>
+                            <td class="parent">Our Services</td>
+                        </tr>
+                        <tr>
+                            <td class="Child">+123456789</td>
+                            <td class="child2" class="Child"><a href="#mainDiv">Home</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Child">example@gmail.com</td>
+                            <td class="child2" class="Child"><a href="#WhoWeAre">About Us</a></td>
+                        </tr>
+                        <tr>
+                            <td class="Child">New York, United States</td>
+                            <td class="child2" class="Child"><a href="#Products">Products</a></td>
+                        </tr>
+                        <tr>
+                            <td class="Child"></td>
+                            <td class="child2" class="Child"><a href="#footer">Contacts</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <a href="https://www.facebook.com/rockstargames" target="_blank"><img class="miniImage" src="./imagen/facebook.png" alt=""></a>
+                    <a href="https://twitter.com/rockstargames" target="_blank"><img class="miniImage" src="./imagen/twitter.png" alt=""></a>
+                    <a href="https://instagram.com/rockstargames" target="_blank"><img class="miniImage" src="./imagen/instagram.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
